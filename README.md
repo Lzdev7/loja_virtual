@@ -1,27 +1,20 @@
-# React + TypeScript + Vite
+Este é um projeto de uma loja de e-commerce construída com React, TypeScript, Styled Components e Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Como usar
 
-Currently, two official plugins are available:
+Para usar este projeto, você precisará instalar as dependências com o comando npm install ou yarn install. Em seguida, você pode iniciar o servidor de desenvolvimento com o comando npm start ou yarn start. O servidor será iniciado na porta 3000.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Especificações
 
-## Expanding the ESLint configuration
+Este projeto usa as seguintes tecnologias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+React
+TypeScript
+Styled Components
+Vite
+Contribuições
 
-- Configure the top-level `parserOptions` property like this:
+Você é bem-vindo a contribuir com este projeto. Para fazer isso, basta criar um fork do projeto no GitHub e fazer suas alterações em seu fork. Em seguida, você pode enviar suas alterações para o projeto principal criando um pull request.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Obrigado por usar este projeto!
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
